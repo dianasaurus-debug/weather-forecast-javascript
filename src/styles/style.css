@@ -1,0 +1,212 @@
+
+
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    font-size : 15px;
+}
+
+
+.container{
+    max-width : 70%;
+    background-color: #FFF;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom : 20px;
+    margin-top : 50px;
+    margin-bottom:50px;
+}
+
+.app-title{
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    height: auto;
+    background-color: #F4F9FF;
+    padding: 20px;
+}
+
+.weather-icon{
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value p:hover{
+    
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description{
+    
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+.form-control-borderless {
+    border: none;
+}
+
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+ @media screen and (max-width: 700px){
+    #cariKota {
+        margin : 0px auto;
+        max-width : 90%; 
+        margin-top: 20px;   
+    }    
+    .flex-container {
+        flex-direction: column;
+    }
+/*    .flex-container > div img{
+        margin-left: 50px;
+    }*/
+    .flex-container > div {
+        width :200px;
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+          font-size: 13px;
+    }
+    .container {
+        max-width: 80%;
+        margin : 0px auto;
+        margin-top: 20px;
+    }
+    .weather-container {
+        padding : 20px;
+    }
+    .flex-container > .next button{
+         width : 200px;
+    }
+    .flex-container > .next {
+        padding: 0px;
+        padding-top: 10px;
+    }
+
+}
+
+ @media screen and (min-width: 701px){
+    #cariKota {
+        margin : 0px auto;
+        max-width : 50%; 
+        margin-top: 20px;   
+    }    
+    body {
+        background-position: center/120%;
+    }
+    .flex-container > div {
+        padding : 30px;
+        padding-left: 40px;
+        width : 150px;
+        font-size: 20px;
+
+    }
+    .flex-container{
+         max-width: 620px;
+    }
+    .flex-container > .next button{
+         width : 125px;
+    }
+    .flex-container > .next{
+         background-color: #F4F9FF;
+         padding-left: 0px;
+         width: 125px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    display: block;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    h2 {
+        padding: 16px;
+    }
+
+.flex-container {
+  margin : 0px auto;
+  margin-top : 10px;
+  display: flex;
+  border-radius: 5px;
+}
+
+.flex-container > div {
+  margin : 0px auto;
+  background-color: #f1f1f1;
+
+}
